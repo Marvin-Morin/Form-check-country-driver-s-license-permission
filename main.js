@@ -14,6 +14,7 @@ function verif () {
 
     if (indexPays >= 1) {
         age.style.display = 'flex';
+        titre.innerHTML = `Veuillez entrer votre âge :`;
     }
 
 age.addEventListener('change', () => {
